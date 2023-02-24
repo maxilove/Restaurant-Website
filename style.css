@@ -1,0 +1,70 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+#section-1 {
+  background-image: url(1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+  display: inline-grid;
+}
+
+#title {
+  font-size: 80px;
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+
+#section-2 {
+  display:grid;
+  justify-content: center;
+  background-color:white;
+  padding: 15px;
+}
+
+.h1,h2,h3{
+  justify-content: center;
+  display: flex;
+  font-style: italic;
+}
+.section-2,h1{
+  color:yellow;
+}
+
+.section-2,h2{
+  color:brown;
+}
+
+.section-h3{
+  color: black;
+}
+
+#logo {
+  width: 230px;
+  height: 180px;
+  padding:50px;
+  display: flex;
+  position:absolute;
+  margin:0 auto;
+  top: 0;
+  left: 0;
+}
+
+#section-3{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#section-4{
+    padding: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center; 
+}
